@@ -14,6 +14,6 @@ To see how to run the tests, refer to the `README.md` file in the `/projects/dev
 
 To learn more about algokit, visit [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md).
 
-To submit, submit the link to your forked version of this repository to [DaoWakanda](https://www.daowakanda.org)
+To submit, submit the link to your forked version of this repository to [DaoWakanda](https://www.daowakanda.org/developers/6716d79b1a83de8e2755bbb4)
 
 Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
