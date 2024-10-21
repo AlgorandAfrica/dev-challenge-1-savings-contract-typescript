@@ -1,0 +1,48 @@
+{
+  "last-round": 147,
+  "txn-groups": [
+    {
+      "txn-results": [
+        {
+          "txn-result": {
+            "pool-error": "",
+            "txn": {
+              "txn": {
+                "apaa": [
+                  "JIfDLA=="
+                ],
+                "apan": 5,
+                "apid": 1169,
+                "fee": 2000,
+                "fv": 147,
+                "gen": "dockernet-v1",
+                "gh": "jOiSQB4aeaH5SIltLkIt+ZDhktYppQ2ElON16dpk2Jk=",
+                "lv": 1147,
+                "snd": "bwJtknqA3P+Sw/LxDdIfFBHGUFJ6/sZWhOqJfeJ5Hsw=",
+                "type": "appl"
+              }
+            }
+          }
+        }
+      ],
+      "app-budget-added": 700,
+      "failed-at": [
+        0
+      ],
+      "failure-message": "transaction VG44CZAT5BKMMG4ECLAG2PSKIG2A5RRTSX267AZZ2ANQNMKCT47A: only ClearState is supported for an application (1169) that does not exist"
+    }
+  ],
+  "version": 2,
+  "eval-overrides": {
+    "allow-empty-signatures": true,
+    "max-log-calls": 2048,
+    "max-log-size": 65536
+  },
+  "exec-trace-config": {
+    "enable": true,
+    "scratch-change": true,
+    "stack-change": true,
+    "state-change": true
+  },
+  "initial-states": {}
+}

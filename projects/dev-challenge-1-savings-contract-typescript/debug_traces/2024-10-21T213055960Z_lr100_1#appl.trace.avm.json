@@ -1,0 +1,197 @@
+{
+  "last-round": 100,
+  "txn-groups": [
+    {
+      "txn-results": [
+        {
+          "txn-result": {
+            "pool-error": "",
+            "txn": {
+              "txn": {
+                "apaa": [
+                  "lzthbw==",
+                  "AAAAAAAAAAA="
+                ],
+                "apap": "CiYBDHRhcmdldEFtb3VudDEYFIEGCzEZCI0MAAAAAAAAAAAAAACAAHIAAAAAAAAAAAAAADYaAReIAAOBAUOKAQCL/4EADUSADHRhcmdldEFtb3VudIv/Z4mIAAOBAUOKAAAxADYyAHIHSBJEMgpzAEiADHRhcmdldEFtb3VudGQPRLGBAbIQgQCyCDYyAHIHSLIHMgqyADYyAHIHSLIJgQCyAbOJgASXO2FvNhoAjgH/ggCABCSHwyw2GgCOAf+ZAA==",
+                "apgs": {
+                  "nui": 1
+                },
+                "apsu": "Cg==",
+                "fee": 1000,
+                "fv": 100,
+                "gen": "dockernet-v1",
+                "gh": "jOiSQB4aeaH5SIltLkIt+ZDhktYppQ2ElON16dpk2Jk=",
+                "lv": 1100,
+                "snd": "KUHhsxC6EEdPKgtB1hLrdK0WYrj29ZwlLbUhboZFVSQ=",
+                "type": "appl"
+              }
+            },
+            "application-index": 1125
+          },
+          "app-budget-consumed": 19,
+          "exec-trace": {
+            "approval-program-hash": "VGun1rgoBN48kIeP5u2mfyk1bitRFfcJF+FgOje2df0=",
+            "approval-program-trace": [
+              {
+                "pc": 1
+              },
+              {
+                "pc": 16,
+                "stack-additions": [
+                  {
+                    "type": 2
+                  }
+                ]
+              },
+              {
+                "pc": 18,
+                "stack-additions": [
+                  {
+                    "type": 2,
+                    "uint": 1
+                  }
+                ],
+                "stack-pop-count": 1
+              },
+              {
+                "pc": 19,
+                "stack-additions": [
+                  {
+                    "type": 2,
+                    "uint": 6
+                  }
+                ]
+              },
+              {
+                "pc": 21,
+                "stack-additions": [
+                  {
+                    "type": 2,
+                    "uint": 6
+                  }
+                ],
+                "stack-pop-count": 2
+              },
+              {
+                "pc": 22,
+                "stack-additions": [
+                  {
+                    "type": 2
+                  }
+                ]
+              },
+              {
+                "pc": 24,
+                "stack-additions": [
+                  {
+                    "type": 2,
+                    "uint": 6
+                  }
+                ],
+                "stack-pop-count": 2
+              },
+              {
+                "pc": 25,
+                "stack-pop-count": 1
+              },
+              {
+                "pc": 165,
+                "stack-additions": [
+                  {
+                    "type": 1,
+                    "bytes": "lzthbw=="
+                  }
+                ]
+              },
+              {
+                "pc": 171,
+                "stack-additions": [
+                  {
+                    "type": 1,
+                    "bytes": "lzthbw=="
+                  }
+                ]
+              },
+              {
+                "pc": 174,
+                "stack-pop-count": 2
+              },
+              {
+                "pc": 52,
+                "stack-additions": [
+                  {
+                    "type": 1,
+                    "bytes": "AAAAAAAAAAA="
+                  }
+                ]
+              },
+              {
+                "pc": 55,
+                "stack-additions": [
+                  {
+                    "type": 2
+                  }
+                ],
+                "stack-pop-count": 1
+              },
+              {
+                "pc": 56
+              },
+              {
+                "pc": 62
+              },
+              {
+                "pc": 65,
+                "stack-additions": [
+                  {
+                    "type": 2
+                  }
+                ]
+              },
+              {
+                "pc": 67,
+                "stack-additions": [
+                  {
+                    "type": 2
+                  }
+                ]
+              },
+              {
+                "pc": 69,
+                "stack-additions": [
+                  {
+                    "type": 2
+                  }
+                ],
+                "stack-pop-count": 2
+              },
+              {
+                "pc": 70,
+                "stack-pop-count": 1
+              }
+            ]
+          }
+        }
+      ],
+      "app-budget-added": 700,
+      "app-budget-consumed": 19,
+      "failed-at": [
+        0
+      ],
+      "failure-message": "transaction W72ARUJEWFSHKBB6CUTGJTRCXV5IRDCCJAWIUIMSV7EB2QXSX2DA: logic eval error: assert failed pc=70. Details: app=1125, pc=70, opcodes=pushint 0; >; assert"
+    }
+  ],
+  "version": 2,
+  "eval-overrides": {
+    "allow-empty-signatures": true,
+    "max-log-calls": 2048,
+    "max-log-size": 65536
+  },
+  "exec-trace-config": {
+    "enable": true,
+    "scratch-change": true,
+    "stack-change": true,
+    "state-change": true
+  },
+  "initial-states": {}
+}
